@@ -7,7 +7,7 @@ import random
 # 代理和API密钥设置
 os.environ["http_proxy"] = "http://127.0.0.1:7890"
 os.environ["https_proxy"] = "http://127.0.0.1:7890"
-os.environ['OPENAI_API_KEY'] = ''
+os.environ['OPENAI_API_KEY'] = ' OPENAI_API_KEY'
 
 client = OpenAI(
     api_key=os.environ.get("OPENAI_API_KEY"),
